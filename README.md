@@ -21,11 +21,12 @@ To enter the container:
 
 * `./enter.sh`
 
-# FAQ 
+### FAQ 
 
 Q. What if I restart my container?, or What if I switch branches in my project?
+
 A. Clean your container and upload everything again. There is a handy script that does it for you:
 
-`./reset.sh`
+* `./reset.sh`
 
 You can find more information on the official [dockware](https://dockware.io) website.

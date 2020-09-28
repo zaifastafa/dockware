@@ -18,6 +18,16 @@ services:
          - web
       environment:
          - XDEBUG_ENABLED=1
+    db:
+      image: mysql:5.7
+      container_name: mysql
+      networks:
+        - web
+      environment:
+        - MYSQL_ROOT_PASSWORD=root
+        - MYSQL_USER=shopware
+        - MYSQL_PASSWORD=shopware
+        - MYSQL_DATABASE=shopware
 volumes:
   db_volume:
     driver: local

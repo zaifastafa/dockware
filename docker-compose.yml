@@ -3,7 +3,7 @@ version: "3"
 services:
         
     shopware:
-      image: dockware/contribute:latest
+      image: dockware/dev:latest
       container_name: shopware
       ports:
          - "80:80"

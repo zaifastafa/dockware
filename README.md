@@ -8,7 +8,7 @@ Clone the project to your desired location:
 
 `git clone https://github.com/zaifastafa/dockware.git`
 
-Run the following commands to setup and assign executatle permissions to the helper scripts:
+Run the following commands to setup and assign executable permissions to the helper scripts:
 
 * `cd dockware`
 * `chmod +x start.sh`
